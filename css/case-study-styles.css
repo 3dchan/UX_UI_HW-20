@@ -1,5 +1,9 @@
 /* Case study styles */
 
+.background-salmon {
+  background-color: #F6E4E4;
+}
+
 .case-study-hero {
   background: url('../images/Backgroud.png');
   background-size: 150%;
@@ -8,4 +12,120 @@
   flex-direction: column;
   height: 1000px;
   justify-content: center;
+}
+
+.img-prototype, .img-old-site, .img-design-process, .full-width-img {
+  width: 100%;
+}
+
+.heading--green {
+  color: green;
+}
+
+.heading--orange {
+  color: orange;
+}
+
+.heading--blue {
+  color: blue;
+}
+
+.journey-header-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+  margin-top: -12rem;
+}
+.journey-header-container h1 {
+  font-size: 5rem;
+}
+
+.case-study-section {
+  margin-bottom: 4rem;
+}
+.project-details-section {
+  display: flex; 
+  flex-direction: column;
+  margin-left: 4rem;
+}
+
+.project-detail-item {
+  margin-bottom: 1rem;
+}
+
+.user-research {
+  margin-bottom: 4rem;
+}
+
+.questions-section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 0 6rem;
+}
+.questions-section h3 {
+  margin-bottom: 1rem;
+}
+
+.questions-section ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.quotes-grid {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.quotes-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.questions-section li {
+  display: inline;
+}
+
+.quotes-statement-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.quotes-statement {
+  text-align: center;
+  max-width: 60ch;
+
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.spaced-blockquotes {
+  justify-content: space-evenly;
+}
+
+.img-kyle {
+  margin-bottom: 1rem;
+}
+
+.competitor-analysis {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.competitor-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.competitor-logo {
+  width: 100%;
 }

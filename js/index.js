@@ -2,6 +2,15 @@
 console.log("Your index.js is currently has loaded!")
 
 $("document").ready(function () {
+  $('.nav-links--desktop').css({
+    position: 'relative',
+    'will-change': 'right',
+    right: '-100%',
+    /* transform: translateX(100%); */
+    opacity: 0,
+    /* transition: all 1200ms ease-out; */
+  });
+
   // Menu will easing in when it appareas
   $('.nav-links--desktop').animate({
     opacity: 1,

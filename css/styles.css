@@ -70,7 +70,7 @@ nav{
 
 
 /* Base classes */
-nav, .hero, footer, .contact-me {
+.base-padding {
   padding-left: 4rem;
   padding-right: 4rem;
 }

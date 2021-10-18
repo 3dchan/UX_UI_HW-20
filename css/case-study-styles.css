@@ -43,6 +43,12 @@
 .case-study-section {
   margin-bottom: 4rem;
 }
+
+.case-study-section > p {
+  max-width: 90ch;
+  padding-bottom: 1rem;
+}
+
 .project-details-section {
   display: flex; 
   flex-direction: column;

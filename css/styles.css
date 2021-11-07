@@ -50,7 +50,6 @@ a {
   color:black;
 }
 a:hover {
-  text-decoration: line-through;
   color: #463f3f;
 }
 
@@ -64,7 +63,7 @@ nav{
   z-index: 1;
 }
 
-nav ul, nav li {
+nav ul, nav li, .social-links li {
     display: inline;
 }
 
